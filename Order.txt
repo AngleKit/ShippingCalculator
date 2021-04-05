@@ -1,4 +1,4 @@
-Your item is:GLASS
-Your shipping cost is:$16
-You are shipping to:AUS
-Your total shipping costs are:$115
+Your item is:GLASSWARE
+Your shipping cost is:$26
+You are shipping to:KRY
+Your total shipping costs are:$125

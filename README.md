@@ -27,6 +27,12 @@ Then determine the calculations to perform:
      $100.01 to $150 = $17.00
      over $150 = free
 
+    Ship to Krypton
+     less than $50 = $20.00
+     $50.01 to $100 = $24.00
+     $100.01 to $150 = $27.00
+     over $150 = free
+
     If item is labelled "Fragile" then adds $2.00 to total cost
 
 Program also exits out if incorrect imformation is entered for the shipping  desitnation or if the item is fragile. 

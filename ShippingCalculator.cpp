@@ -29,6 +29,11 @@ const int AULESS50 = 10;
 const int AU50TO100 = 14;
 const int AU100TO150 = 17;
 
+// To Krypton
+const int KTLESS50 = 20;
+const int KT50TO100 = 24;
+const int KT100TO150 = 27;
+
 int main()
 {
     
@@ -82,7 +87,7 @@ int main()
     cout << left << s3 << setw(34) << right << "." << ":" << endl;
     cin >> Ordertotal;
 
-    string s4 = "Please enter destination. (usa/can/aus)";
+    string s4 = "Please enter destination. (usa/can/aus/kry)";
     cout << left << s4 << setw(18) << right << "." << ":" << endl;
     cin >> Dest; 
     cout << endl;
@@ -118,6 +123,17 @@ int main()
             ShipPrices = AU50TO100;
         else if (Ordertotal > 100 && Ordertotal <= 150)
             ShipPrices = AU100TO150;
+        else
+            ShipPrices = OVER150;
+    }
+    else if (Dest == "kry")
+    {
+        if (Ordertotal <= 50) // chart given did not give value for if order price is $50
+            ShipPrices = KTLESS50;
+        else if (Ordertotal > 50 && Ordertotal <= 100)
+            ShipPrices = KT50TO100;
+        else if (Ordertotal > 100 && Ordertotal <= 150)
+            ShipPrices = KT100TO150;
         else
             ShipPrices = OVER150;
     }
