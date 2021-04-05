@@ -1,0 +1,4 @@
+Your item is:GLASS
+Your shipping cost is:$16
+You are shipping to:AUS
+Your total shipping costs are:$115
